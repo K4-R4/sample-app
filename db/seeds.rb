@@ -1,8 +1,9 @@
 # メインのサンプルユーザーを1人作成する
 User.create!(name:  "kuramoto",
-             email: "mabdman512@gmail.com",
-             password:              "kuramoto",
-             password_confirmation: "kuramoto")
+             email: "kuramoto.taisei@gmail.com",
+             password:              "foobarfoo",
+             password_confirmation: "foobarfoo",
+             admin: true)
 
 # 追加のユーザーをまとめて生成する
 99.times do |n|
