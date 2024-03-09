@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 module ApplicationHelper
+  include SessionsHelper
+
   def full_title(page_title = '')
     base_title = "Ruby on Rails Tutorial Sample App"
     if page_title.empty?
