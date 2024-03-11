@@ -3,6 +3,7 @@
 
 /* mixins, variables, etc. */
 
+$gray-lighter: #f3f3f3;
 $gray-medium-light: #eaeaea;
 $state-danger-text: #b94a48;
 
@@ -212,4 +213,16 @@ input {
 /* Dropdown menu */
 .dropdown-menu.active {
   display: block;
+}
+
+/* Users index */
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
 }
