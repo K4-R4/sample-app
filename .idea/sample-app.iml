@@ -126,6 +126,22 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="active_storage_validations (v0.9.8) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/active_storage_validations-0.9.8/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/active_storage_validations-0.9.8/config" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/active_storage_validations-0.9.8/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/active_storage_validations-0.9.8/config" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="activejob (v7.0.4.3) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -799,6 +815,20 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="image_processing (v1.12.2) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/image_processing-1.12.2/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/image_processing-1.12.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="importmap-rails (v1.1.5) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -1094,6 +1124,20 @@
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/method_source-1.0.0/spec" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/method_source-1.0.0/.circleci" />
         </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mini_magick (v4.12.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/mini_magick-4.12.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/mini_magick-4.12.0/lib" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -1931,6 +1975,28 @@
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/ruby-progressbar-1.13.0/lib" />
         </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ruby-vips (v2.2.1) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/ruby-vips-2.2.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/ruby-vips-2.2.1/.github" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/ruby-vips-2.2.1/example" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/ruby-vips-2.2.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/ruby-vips-2.2.1/.github" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/ruby-vips-2.2.1/example" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/ruby-vips-2.2.1/.github" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/ruby-vips-2.2.1/example" />
+        </excluded>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
