@@ -13,12 +13,17 @@ Rails.application.routes.draw do
   get 'password_resets/edit'
   get 'sessions/new'
   get 'users/new'
-  get '/microposts', to: 'microposts#home'
+  resources :users do
+    member do
+      get :following, :followers
+    end
+  end
 
-  resources :users
   resources :account_activations, only: [:edit]
   resources :password_resets, only: [:new, :create, :edit, :update]
   resources :microposts, only: [:create, :destroy]
+  resources :relationships, only: [:create, :destroy]
+  get '/microposts', to: 'microposts#home'
   # resources :password_resets, only: %i([new] [create] [edit] [update])
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
